@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="409dp"        android:layout_height="95dp"
+        android:layout_marginTop="87dp"
+        android:autoText="false"
+        android:background="#6AAF4C"
+        android:ems="10"
+        android:fontFamily="@font/hanalei_fill"
+        android:inputType="textPersonName"
+        android:text="Speak Tamil with Sasiccio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="top"
+        tools:layout_editor_absoluteY="731dp" />
+
+    <Button
+        android:id="@+id/periemolePush"
+        android:layout_width="168dp"
+        android:layout_height="154dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="272dp"
+        android:background="@drawable/sasicciospaventato"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cinnasutuButton"
+        android:layout_width="179dp"
+        android:layout_height="160dp"
+
+        android:layout_marginTop="268dp"
+        android:background="@drawable/sasi2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/hottaButton"
+        android:layout_width="168dp"
+        android:layout_height="156dp"
+        android:background="@drawable/sasi3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/kundaButton"
+        android:layout_width="171dp"
+        android:layout_height="154dp"
+        android:background="@drawable/sasi4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
